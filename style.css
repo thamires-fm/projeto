@@ -142,7 +142,7 @@ ul li a {
 
   background: var(--surface-color);
   border: 1px solid var(--stroke-color);
-  border-radius: 8px; /*borda arrendondada*/
+  border-radius: 8px; /*borda arredondada*/
 
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
@@ -151,7 +151,7 @@ ul li a {
   text-decoration: none; /*retirar o underline*/
   font-weight: 500;
 
-  /*Tansiciona as cores dos botões ao passar em cima*/
+  /*Transiciona as cores dos botões ao passar em cima*/
   /* transition: all 0.5s; passa todos os comandos da página para serem carregados*/
   transition: background 0.5s;
 }
@@ -199,6 +199,6 @@ footer a {
   }
 
   .light {
-    --bg-url: url(./assets/bg-desktop.light.jpg);
+    --bg-url: url(./assets/bg-desktop-light.jpg);
   }
 }
